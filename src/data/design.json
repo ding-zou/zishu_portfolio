@@ -1,0 +1,69 @@
+[
+  {
+    "value": {
+      "name": "App Design",
+      "description": "自行设计的APP界面UI",
+      "url": [
+        "http://dzou.wangminwei.top/zoufubo/app/2.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/3.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/4.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/5.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/6.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/7.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/8.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/9.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/10.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/11.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/12.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/13.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/14.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/15.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/16.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/17.jpg",
+        "http://dzou.wangminwei.top/zoufubo/app/18.jpg"
+      ],
+      "color": ["#D74A4A", "#E9A59D", "#070707", "#4E4FD2", "#FF8080", "#D74A4A", "#E9A59D", "#070707", "#4E4FD2", "#FF8080", "#D74A4A", "#E9A59D", "#070707", "#4E4FD2", "#FF8080", "#D74A4A", "#E9A59D", "#070707"],
+      "image": "http://dzou.wangminwei.top/zoufubo/%EF%BC%881%EF%BC%89APP%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1.png"
+    }
+  },
+  {
+    "value": {
+      "name": "Web Design",
+      "description": "自行设计的网页界面和UI",
+      "url": [
+        "http://dzou.wangminwei.top/zoufubo/web/19.jpg",
+        "http://dzou.wangminwei.top/zoufubo/web/20.jpg",
+        "http://dzou.wangminwei.top/zoufubo/web/21.jpg"
+      ],
+      "color": ["#3D7EE8", "#3D7EE8", "#3D7EE8"],
+      "image": "http://dzou.wangminwei.top/zoufubo/%EF%BC%882%EF%BC%89%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1.png"
+    }
+  },
+  {
+    "value": {
+      "name": "Icon Design",
+      "description": "自行设计的图标和UI",
+      "url": [
+        "http://dzou.wangminwei.top/zoufubo/icon/22.jpg",
+        "http://dzou.wangminwei.top/zoufubo/icon/23.jpg",
+        "http://dzou.wangminwei.top/zoufubo/icon/24.jpg",
+        "http://dzou.wangminwei.top/zoufubo/icon/25.jpg"
+      ],
+      "color": ["#1C3163", "#1C3163", "#1C3163", "#1C3163"],
+      "image": "http://dzou.wangminwei.top/zoufubo/%EF%BC%883%EF%BC%89%E5%9B%BE%E6%A0%87%E8%AE%BE%E8%AE%A1.png"
+    }
+  },
+  {
+    "value": {
+      "name": "Others Practice",
+      "description": "其他练习，包括插画",
+      "url": [
+        "http://dzou.wangminwei.top/zoufubo/other/26.jpg",
+        "http://dzou.wangminwei.top/zoufubo/other/27.jpg",
+        "http://dzou.wangminwei.top/zoufubo/other/28.jpg"
+      ],
+      "color": ["#F7CABC", "#F7CABC", "#F7CABC"],
+      "image": "http://dzou.wangminwei.top/zoufubo/%EF%BC%884%EF%BC%89%E5%85%B6%E4%BB%96%E7%BB%83%E4%B9%A0.png"
+    }
+  }
+]

@@ -1,34 +1,52 @@
 module.exports = {
+  pathPrefix: "/zishu_portfolio",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: "Zoufubo | ZiShu",
+    description: "UI Designer - App, Web Design and more",
+    author: "ZiShu",
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-google-fonts",
+      options: {
+        fonts: ["Noto Sans SC", "Noto Serif SC"],
+      },
+    },
+    "gatsby-transformer-json",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/data`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-plugin-manifest",
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        name: "ZiShu Portfolio",
+        short_name: "ZiShu",
+        start_url: "/",
+        background_color: "#000000",
+        theme_color: "#5216CE",
+        display: "minimal-ui",
+        icon: "static/favicon.png",
+        cache_busting_mode: "none",
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/*"],
+        },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-149740367-2",
+      },
+    },
   ],
-}
+};

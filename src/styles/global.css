@@ -1,0 +1,55 @@
+.develop-title-container {
+  position: relative;
+  top: calc(50vh - 280px);
+  max-height: 500px;
+  width: 400px;
+  float: left;
+}
+.develop-title-bg {
+  position: relative;
+  right: 190px;
+  top: 30px;
+}
+.develop-title-text {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  bottom: 230px;
+  left: 30px;
+}
+.design-title-container {
+  position: absolute;
+  left: -250px;
+  top: -250px;
+  max-height: 500px;
+}
+.design-title-bg {
+  /* position: relative;
+  right: 190px;
+  top: 100px; */
+  transform: rotateZ(280deg) scale(1.1);
+}
+.design-title-text {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  left: 11px;
+}
+.develop-arrow {
+  margin: 0;
+  transform: rotateZ(90deg);
+  position: absolute;
+  bottom: -20px;
+  right: 40px;
+}
+.index-arrow {
+  position: absolute;
+  top: 80px;
+  left: calc(50vw + 105px);
+}
