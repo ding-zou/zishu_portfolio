@@ -33,7 +33,7 @@
 .link_container {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 165px;
   position: absolute;
   bottom: -26px;
   left: -4px;

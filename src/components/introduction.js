@@ -24,9 +24,9 @@ export default () => {
           duration={1}
           color="#5216CE"
         >
-          <span>我 </span>
-          <span style={{ fontFamily: "Noto Serif SC" }}>设计</span>
-          <span> 移动端应用和网页</span>
+          <span>这是我的个人 </span>
+          <span style={{ fontFamily: "Noto Serif SC", color: "#5216CE" }}>UI</span>
+          <span> 作品集</span>
         </BlockRevealAnimation>
       </div>
       <div>
@@ -45,6 +45,7 @@ export default () => {
           <span style={{ color: "#5216CE" }}>
             <TextLoop interval={2000} delay={2000}>
               {[
+                "Figma",
                 "Adobe XD",
                 "Photoshop",
                 "Adobe Illustrator",
