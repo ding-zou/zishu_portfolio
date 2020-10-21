@@ -12,7 +12,7 @@ export default () => {
   useEffect(() => {
     const btn = document.getElementById("copy-email");
     btn.addEventListener("click", () => {
-      copy("zoufubo@gmail.com");
+      copy("fubozou@gmail.com");
     });
   }, []);
   return (
